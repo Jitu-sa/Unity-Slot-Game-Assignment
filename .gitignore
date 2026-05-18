@@ -6,8 +6,13 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
+# Ignore general builds
 /[Bb]uilds/
+/[Bb]uild/
+
+# Allow WebGL build
+!/Build/
+!/Build/WebGL/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
